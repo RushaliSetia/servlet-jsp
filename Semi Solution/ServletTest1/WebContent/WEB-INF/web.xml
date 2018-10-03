@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ServletTest1</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>BookCatalougeServlet</display-name>
+    <servlet-name>BookCatalougeServlet</servlet-name>
+    <servlet-class>com.solution1.BookCatalougeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookCatalougeServlet</servlet-name>
+    <url-pattern>/BookCatalougeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PurchaseBookServlet</display-name>
+    <servlet-name>PurchaseBookServlet</servlet-name>
+    <servlet-class>com.solution1.PurchaseBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PurchaseBookServlet</servlet-name>
+    <url-pattern>/PurchaseBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Logout</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.solution1.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShowCartServlet</display-name>
+    <servlet-name>ShowCartServlet</servlet-name>
+    <servlet-class>com.solution1.ShowCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowCartServlet</servlet-name>
+    <url-pattern>/ShowCartServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

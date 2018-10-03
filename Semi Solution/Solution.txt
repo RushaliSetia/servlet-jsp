@@ -1,0 +1,9 @@
+This is incomplete Solution
+
+1) Web.XMl : welcome file list
+2) Validate.jsp
+3) BookCatalougeServlet
+-------------
+Add 2 New Classes
+1) databaseService
+2) databaseOperationsQuestion1
