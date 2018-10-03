@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Servlet3Que1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>InsertServlet</display-name>
+    <servlet-name>InsertServlet</servlet-name>
+    <servlet-class>p1.InsertServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertServlet</servlet-name>
+    <url-pattern>/InsertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TopicList</display-name>
+    <servlet-name>TopicList</servlet-name>
+    <servlet-class>p1.TopicList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TopicList</servlet-name>
+    <url-pattern>/TopicList</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DisplayList</display-name>
+    <servlet-name>DisplayList</servlet-name>
+    <servlet-class>p1.DisplayList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DisplayList</servlet-name>
+    <url-pattern>/DisplayList</url-pattern>
+  </servlet-mapping>
+</web-app>
